@@ -1,193 +1,247 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<html class="no-js" lang="zh-CN">
 <head>
-  <meta charset="utf-8">
-  
+    <!--[if lte IE 9]>
+<meta http-equiv="refresh" content="0;url=https://someody.github.io/warn.html">
+<![endif]-->
+<meta charset="utf-8">
+<meta http-equiv="X-DNS-Prefetch-Control" content="on">
+<link rel="dns-prefetch" href="https://someody.github.io">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="prefetch" href="https://someody.github.io">
+<link rel="prefetch" href="//www.google-analytics.com">
 
-  
-  <title>hexo搭建个人博客教程 | 谷同学</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="环境：windows一、    安装node.js环境浏览器搜索node.js，选择官网打开，下载安装（一直下一步安装就可以）。安装完成以后，打开cmd，node –v，给出node.js的版本，表示安装成功。二、    注册github浏览器搜索github，进入官网注册，输入用户名邮箱密码，提交并邮箱验证就可以(地球人都会)。新建一个仓库(repository)，仓库名字是 [yourname">
-<meta property="og:type" content="article">
-<meta property="og:title" content="hexo搭建个人博客教程">
-<meta property="og:url" content="https:&#x2F;&#x2F;someody.github.io&#x2F;2019&#x2F;11&#x2F;10&#x2F;hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B&#x2F;index.html">
-<meta property="og:site_name" content="谷同学">
-<meta property="og:description" content="环境：windows一、    安装node.js环境浏览器搜索node.js，选择官网打开，下载安装（一直下一步安装就可以）。安装完成以后，打开cmd，node –v，给出node.js的版本，表示安装成功。二、    注册github浏览器搜索github，进入官网注册，输入用户名邮箱密码，提交并邮箱验证就可以(地球人都会)。新建一个仓库(repository)，仓库名字是 [yourname">
-<meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-11-10T12:06:10.736Z">
-<meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="谷同学" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
+
+<link rel="prerender" href="https://someody.github.io">
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+<meta http-equiv="mobile-agent" content="format=html5; url=https://someody.github.io">
+<meta name="author" content="someody">
+<link rel="stylesheet" href="/css/JSimple.css">
+
+<link rel="shortcut icon" href="/images/favicon.png">
+
+
+<title>hexo搭建个人博客教程 - 谷同学的个人网站</title>
+
+<meta name="keywords" content="">
+
+<meta name="description " content="">
+
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                processEscapes: true
+            }
+        });
+    </script>
+
+
+    
+
+    
+
 </head>
-
 <body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">谷同学</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
+<div id="nav">
+    <nav class="nav-menu">
+        <a class="site-name current" href="/" title="说">说</a>
+        <a class="site-index current" href="/"><i class="fa fa-home"></i><span>Home</span></a>
+        <a href="/archives" title="Archives"><i class="fa fa-archives"></i><span>Archives</span></a>
+        <a href="/tags" title="Tags"><i class="fa fa-tags"></i><span>Tags</span></a>
+        <!-- custom single page of menus -->
         
-          <a class="main-nav-link" href="/">Home</a>
         
-          <a class="main-nav-link" href="/archives">Archives</a>
+        <a href="/help" title="帮助">
+            <i class="fa fa-question-circle"></i>
+            <span>帮助</span>
+        </a>
         
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://someody.github.io"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main"><article id="post-hexo搭建个人博客教程" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/11/10/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/" class="article-date">
-  <time datetime="2019-11-10T12:00:33.443Z" itemprop="datePublished">2019-11-10</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      hexo搭建个人博客教程
-    </h1>
-  
+    </nav>
+</div>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>环境：windows<br>一、    安装node.js环境<br>浏览器搜索node.js，选择官网打开，下载安装（一直下一步安装就可以）。安装完成以后，打开cmd，node –v，给出node.js的版本，表示安装成功。<br>二、    注册github<br>浏览器搜索github，进入官网注册，输入用户名邮箱密码，提交并邮箱验证就可以(地球人都会)。新建一个仓库(repository)，仓库名字是 [yourname].github.io，（注意：yourname是你的用户名，必须是这种形式。）<br>三、    安装git环境<br>浏览器搜索git，官网下载安装，一直下一步就好。安装完成后，打开cmd命令行，输入命令git，给出git的版本等相关信息，表示git安装完成<br>四、    GithubSSH配置<br>git使用https协议，每次pull,push都要输入密码，使用git协议，使用ssh秘钥，可以省去每次输密码。<br>SSH配置步骤：<br>第一步，在git的安装路径下找到git-bash.exe，打开，输入命令：<br>ssh-keygen –t –rsa –c “你的github注册的邮箱地址”，然后回车回车回车就可以。<br>解释一下这里弹出的命令的意思，运行命令弹出的第一条是让你输入一个文件名，用于保存刚才生成的SSH key代码，可以不输入文件名，直接回车，用默认的文件名就好<br>接下来会弹出两次让你输入密码的命令，该密码是push文件时要输入的密码，不是github管理者的密码。这里也可以直接回车，不输入密码，那么push文件时就不需要输入密码，直接提交到github上。<br>第二步，打开github→点击头像→settings→SSH and KPG keys→New SSHkeys，title部分随便写，key部分，要先在c盘里搜索.ssh，找到id_rsa.pub，用记事本打开，复制所有内容，粘贴到key部分，最后点击ADD SSH key。大功告成。<br>五、安装hexo<br>浏览器搜索hexo，点击 文档|hexo 进入官网的文档页面，会有一个安装命令：<br>nmp install hexo-cli –g<br>第一步，可以cmd进入dos命令，打开想安装hexo的文件夹，输入上述命令，回车安装hexo（安装略慢）<br>第二步，安装好以后继续在dos命令界面，继续在这个文件夹下，输入命令：<br>hexo init myblog  （注:myblog是你随便给自己的博客起的名字）<br>第三步，第二步完成以后，进入博客目录，输入以下命令安装依赖：<br>nmp install<br>第四步，安装好以后，就可以本地运行一下；先要部署端口，用以下命令：<br>hexo s=hexo server (这两个命令等价，启动)<br>hexo s –p 5555 （这里用的是5555端口，可以改为别的。也可以用hexo s命令，这里是用了默认端口4000）<br>部署好以后就可以打开浏览器，地址栏输入：<br>Localhost:5555<br>打开页面，就能看到自己的博客，官方自带主题。<br>第五步，安装hexo-deployer-git，输入命令：<br>nmp install hexo-deployer-git –save     回车安装<br>六、    安装sublime<br>浏览器搜索sublime，进入官网下载安装，下一步下一步下一步就好。<br>安装打开以后，可以直接把刚才创建的博客目录拖进来，sublime很快打开这个文件夹，就可以在这里面修改自己的博客内容，修改相关的配置。<br>七、将hexo发布至github<br>在sublime中打开博客的config.yml文件修改相关配置，</p>
+<div class="nav-user">
+    <a class="btn-search" href="#"><i class="fa fa-search"></i></a>
+    <a class="btn-read-mode" href="#"><i class="fa fa-sun-o"></i></a>
+    <a class="btn-sns-qr" href="javascript:" target="_blank" rel="noopener"><i class="fa fa-telegram"></i></a>
+</div>
+
+<div id="wrapper" class="clearfix">
+    <div id="body">
+        <div class="main" id="main">
+            <div id="cover">
+    <div class="cover-img"></div>
+    <div class="cover-info">
+        
+        <h1 class="cover-siteName">杂谈</h1>
+        <h3 class="cover-siteTitle">哈哈哈哈哈</h3>
+        <p class="cover-siteDesc">哦哦哦哦哦</p>
+        <div class="cover-sns">
+            
+    &nbsp;&nbsp;<div class="btn btn-telegram">
+        <a href="http://t.me/kunyintang" target="_blank" title="telegram" ref="friend">
+            <i class="fa fa-telegram"></i>
+        </a>
+    </div>
+
+    &nbsp;&nbsp;<div class="btn btn-instagram">
+        <a href="https://www.instagram.com/mtangsir/" target="_blank" title="instagram" ref="friend">
+            <i class="fa fa-instagram"></i>
+        </a>
+    </div>
+
+    &nbsp;&nbsp;<div class="btn btn-twitter">
+        <a href="https://twitter.com/tangkunyin" target="_blank" title="twitter" ref="friend">
+            <i class="fa fa-twitter"></i>
+        </a>
+    </div>
+
+    &nbsp;&nbsp;<div class="btn btn-github">
+        <a href="https://github.com/tangkunyin" target="_blank" title="github" ref="friend">
+            <i class="fa fa-github"></i>
+        </a>
+    </div>
+
+
+        </div>
+    </div>
+</div>
+
+            <div class="page-title">
+    <ul>
+        <li><a href="/">Recent Posts</a></li>
+        
+        
+        
+        <li class="page-search">
+    <form id="search" class="search-form">
+        <input type="text"
+               readonly="readonly"
+               id="local-search-input-tip"
+               placeholder="click to search..." />
+        <button type="button" disabled="disabled" class="search-form-submit"><i class="fa fa-search"></i></button>
+    </form>
+</li>
+
+    </ul>
+</div>
+<div class="main-inner">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <div class="post-header">
+            <div class="post-author clearfix">
+                <a class="avatar fleft" href="https://shuoit.net"
+                   target="_blank">
+                    <img width="48" src="/images/favicon.png" alt="avatar"/>
+                </a>
+                <p><span class="label">Author</span>
+                    <a href="https://shuoit.net"
+                       target="_blank">谷同学</a>
+                    <span title="Last edited at&nbsp;2019-11-10">2019-11-10</span>
+                </p>
+                <p>一个啥也不懂的同学</p>
+            </div>
+            <h2 class="post-title">hexo搭建个人博客教程</h2>
+            <div class="post-meta">
+                emm... 2303 words in the article |
+                you are the&nbsp;<span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>th friend who reading now
+            </div>
+        </div>
+        <div class="post-content markdown-body">
+            <p>环境：windows<br>一、    安装node.js环境<br>浏览器搜索node.js，选择官网打开，下载安装（一直下一步安装就可以）。安装完成以后，打开cmd，node –v，给出node.js的版本，表示安装成功。<br>二、    注册github<br>浏览器搜索github，进入官网注册，输入用户名邮箱密码，提交并邮箱验证就可以(地球人都会)。新建一个仓库(repository)，仓库名字是 [yourname].github.io，（注意：yourname是你的用户名，必须是这种形式。）<br>三、    安装git环境<br>浏览器搜索git，官网下载安装，一直下一步就好。安装完成后，打开cmd命令行，输入命令git，给出git的版本等相关信息，表示git安装完成<br>四、    GithubSSH配置<br>git使用https协议，每次pull,push都要输入密码，使用git协议，使用ssh秘钥，可以省去每次输密码。<br>SSH配置步骤：<br>第一步，在git的安装路径下找到git-bash.exe，打开，输入命令：<br>ssh-keygen –t –rsa –c “你的github注册的邮箱地址”，然后回车回车回车就可以。<br>解释一下这里弹出的命令的意思，运行命令弹出的第一条是让你输入一个文件名，用于保存刚才生成的SSH key代码，可以不输入文件名，直接回车，用默认的文件名就好<br>接下来会弹出两次让你输入密码的命令，该密码是push文件时要输入的密码，不是github管理者的密码。这里也可以直接回车，不输入密码，那么push文件时就不需要输入密码，直接提交到github上。<br>第二步，打开github→点击头像→settings→SSH and KPG keys→New SSHkeys，title部分随便写，key部分，要先在c盘里搜索.ssh，找到id_rsa.pub，用记事本打开，复制所有内容，粘贴到key部分，最后点击ADD SSH key。大功告成。<br>五、安装hexo<br>浏览器搜索hexo，点击 文档|hexo 进入官网的文档页面，会有一个安装命令：<br>nmp install hexo-cli –g<br>第一步，可以cmd进入dos命令，打开想安装hexo的文件夹，输入上述命令，回车安装hexo（安装略慢）<br>第二步，安装好以后继续在dos命令界面，继续在这个文件夹下，输入命令：<br>hexo init myblog  （注:myblog是你随便给自己的博客起的名字）<br>第三步，第二步完成以后，进入博客目录，输入以下命令安装依赖：<br>nmp install<br>第四步，安装好以后，就可以本地运行一下；先要部署端口，用以下命令：<br>hexo s=hexo server (这两个命令等价，启动)<br>hexo s –p 5555 （这里用的是5555端口，可以改为别的。也可以用hexo s命令，这里是用了默认端口4000）<br>部署好以后就可以打开浏览器，地址栏输入：<br>Localhost:5555<br>打开页面，就能看到自己的博客，官方自带主题。<br>第五步，安装hexo-deployer-git，输入命令：<br>nmp install hexo-deployer-git –save     回车安装<br>六、    安装sublime<br>浏览器搜索sublime，进入官网下载安装，下一步下一步下一步就好。<br>安装打开以后，可以直接把刚才创建的博客目录拖进来，sublime很快打开这个文件夹，就可以在这里面修改自己的博客内容，修改相关的配置。<br>七、将hexo发布至github<br>在sublime中打开博客的config.yml文件修改相关配置，</p>
 <p>author: someody（这里是你起的作者的名字）<br>url: <a href="https://yourname.github.io" target="_blank" rel="noopener">https://yourname.github.io</a>  (注:yourname是你的github用户名)<br>type:git<br>Repo:“你的仓库网址”<br>后面这个网址是你的仓库的网址，获得这个网址的步骤：<br>登陆github→你的头像→your profile→打开你的仓库→找到clone or download按钮并且点击→然后会给出网址→将得到的网址填到repo:后面<br>Branch:master  这个默认就好</p>
 <p>以上配置好以后（记得要保存），打开cmd命令窗口，进入到自己创建的博客目录下，输入命令：</p>
 <p>hexo g =hexo generate（生成静态网站的命令）<br>hexo d （提交）<br>首次提交会让你配置github的信息<br>输入命令：<br>git config - -global user.email  “<a href="mailto:you@example.com" target="_blank" rel="noopener">you@example.com</a>”<br>git config - -global user.name  “yourname”<br>(这两个命令上面会有提示，只需要修改成自己的邮箱地址和用户名即可)</p>
 <p>部署完成以后，会弹出一个让你输入用户名和密码的，输入提交。提交成功以后就可以在浏览器上用域名浏览博客了。域名格式为：url: <a href="https://yourname.github.io" target="_blank" rel="noopener">https://yourname.github.io</a>  (注:yourname是你的github用户名)<br>八、浏览hexo主题网，选一款自己喜欢的主题<br>将博客主题换掉的步骤如下。<br>在hexo主题网选一款自己喜欢的主题，然后打开，看一下主题介绍，一般主题介绍里都会有这个主题的下载地址或者安装方法等，下载主题，放到你的博客文件夹里的themes文件夹下，然后在config.yml内的修改theme设定就好了。</p>
 <p>注：每次修改完以后要保存，然后在cmd命令界面进入博客文件夹下，输入命令：<br>hexo g    （生成）<br>hexo d    （提交）<br>然后再配置端口本地访问或者直接远程访问刷新即可。</p>
 
-      
+            
+                
+
+            
+        </div>
+        <div class="post-tool">
+            <a class="btn-thumbs-up" href="javascript:void(0);" target="_blank" rel="noopener" data-cid="52" title="95">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i> Donate
+            </a>
+        </div>
+        
+        <div class="post-tags">Tags：
+            
+        </div>
+        
+    </article>
+    
+        <p style="text-align: center">This article just represents my own viewpoint. If there is something wrong, please correct me.</p>
+    
+    
+    
+
+</div>
+<script src="/js/busuanzi.pure.mini.js"></script>
+
+
+        </div><!-- end #main-->
+    </div><!-- end #body -->
+    <footer class="footer">
+    <div class="footer-inner" style="text-align: center">
+        <p>
+            <a href="/about"  title="About">About</a>&nbsp;&nbsp<em>·</em>&nbsp;&nbsp
+            <!-- 自定义链接 -->
+            <a href="/help" title="Help" >Help</a>&nbsp;&nbsp<em>·</em>&nbsp;&nbsp
+            <a href="/links" title="Links">Links</a>&nbsp;&nbsp<em>·</em>&nbsp;&nbsp
+            <a href="/sitemap.xml" title="SiteMap">SiteMap</a>
+        </p>
+        <p>
+            Has been established&nbsp<a href="/timeline" id="siteBuildingTime"></a>&nbspDays，<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="licence">Based on Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a><br/>
+            ©2017-<span id="cpYear"></span> Based on&nbsp<a href="http://hexo.io" target="_blank" rel="nofollow">Hexo</a>
+            ，Theme by&nbsp&nbsp<a href="https://github.com/tangkunyin/hexo-theme-jsimple" target="_blank" rel="bookmark">JSimple</a>
+            ，Author&nbsp<a href="https://shuoit.net" target="_blank" rel="friend">谷同学</a>
+            ，Hosted by <a href="https://pages.github.com/" target="_blank" rel="nofollow">GitHub Pages</a>
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="https://someody.github.io/2019/11/10/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/" data-id="ck2sz26wf00002w3ygut95tcp" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-    
-<nav id="article-nav">
-  
-  
-    <a href="/2019/11/06/%E6%AC%A2%E8%BF%8E%E9%A1%B5/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">欢迎页</div>
-    </a>
-  
-</nav>
-
-  
-</article>
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">November 2019</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2019/11/10/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">hexo搭建个人博客教程</a>
-          </li>
-        
-          <li>
-            <a href="/2019/11/06/%E6%AC%A2%E8%BF%8E%E9%A1%B5/">欢迎页</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2019 someody<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
 </footer>
+<script src="/js/SimpleCore.js"></script>
+
+</div>
+<!-- search pop -->
+<div class="popup search-popup local-search-popup">
+    <div class="local-search-header clearfix">
+        <span class="search-icon">
+            <i class="fa fa-search"></i>
+        </span>
+        <span class="popup-btn-close">
+            <i class="fa fa-times-circle"></i>
+        </span>
+        <div class="local-search-input-wrapper">
+            <input id="local-search-input"
+                   spellcheck="false"
+                   type="text"
+                   autocomplete="off"
+                   placeholder="Input query keywords here..."/>
+        </div>
     </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
-
-
-
-  </div>
+    <div id="local-search-result"></div>
+</div>
+<div class="fixed-btn">
+    <a class="btn-gotop" href="javascript:" target="_blank" rel="noopener"> <i class="fa fa-angle-up"></i></a>
+</div>
+<script>
+    $(function () {
+        var jsi_config = {
+            buildingTime: '01/20/2018',
+            current: $('.post-tags').length > 0 ? 'post' : 'archive',
+            snsQRCode: '/images/sns-qrcode.png',
+            donateImg: '/images/donate-qr.png',
+            localSearch: { dbPath: '' },
+            readMode: 'day'
+        };
+        
+        SimpleCore.init(jsi_config);
+        
+    });
+</script>
 </body>
 </html>
